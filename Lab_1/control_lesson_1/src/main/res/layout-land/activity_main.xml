@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#066"
+        android:text="Layout Type"
+        android:textSize="28dp"
+        android:textColor="#fff"
+        android:paddingHorizontal="20dp"
+        android:gravity="center_vertical"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <TableRow>
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/adnroid_image" />
+        <TableLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_marginTop="70dp"
+            >
+            <TableRow>
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Name:"
+                    android:textSize="26dp"
+                    android:padding="5dp"
+                    android:textColor="#707070"
+                    />
+                <TextView
+                    android:layout_weight="2"
+                    android:text="Tony Stark"
+                    android:textSize="26dp"
+                    android:padding="5dp"
+                    android:textColor="#707070"
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Organisation:"
+                    android:textSize="26dp"
+                    android:padding="5dp"
+                    android:textColor="#707070"
+                    />
+                <TextView
+                    android:layout_weight="2"
+                    android:text="MIREA"
+                    android:textSize="26dp"
+                    android:padding="5dp"
+                    android:textColor="#707070"
+                    />
+            </TableRow>
+            <TableRow>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@android:drawable/stat_sys_vp_phone_call" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:text="+7 (977) 880-11-31"
+                        android:textSize="26dp"
+                        android:paddingTop="5dp"
+                        android:paddingHorizontal="5dp"
+                        android:textColor="#707070"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="(Mobile)"
+                        android:textSize="16dp"
+                        android:textColor="#707070"
+                        />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+
+        android:backgroundTint="#C1C1C1"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        />
+</FrameLayout>
