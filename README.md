@@ -3,7 +3,7 @@
 Название            | Статус | Ссылка
 --------------------|--------|--------
 Практика 1            |   🟡  | <a href="https://github.com/MalakaVoid/MobileAppsMirea/tree/master/Lab_1">Lab 1</a>
-Практика 2            |   🔴  |
+Практика 2            |   🟡  | <a href="https://github.com/MalakaVoid/MobileAppsMirea/tree/master/Lesson_2">Lab 1</a>
 Практика 3            |   🔴  |
 Практика 4            |   🔴  |
 Практика 5            |   🔴  |
