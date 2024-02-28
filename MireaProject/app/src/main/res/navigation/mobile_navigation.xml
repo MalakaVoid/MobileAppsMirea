@@ -6,6 +6,11 @@
     app:startDestination="@+id/data_fragment">
 
     <fragment
+        android:id="@+id/worker_fragment"
+        android:name="ru.mirea.azbukindu.mireaproject.WorkerFragment"
+        android:label="Worker"
+        tools:layout="@layout/fragment_worker" />
+    <fragment
         android:id="@+id/data_fragment"
         android:name="ru.mirea.azbukindu.mireaproject.DataFragment"
         android:label="Data"
@@ -27,9 +32,4 @@
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="ru.mirea.azbukindu.mireaproject.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
 </navigation>

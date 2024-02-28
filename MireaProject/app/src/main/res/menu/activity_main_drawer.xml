@@ -12,5 +12,9 @@
             android:id="@+id/webView_fragment"
             android:icon="@drawable/ic_menu_gallery"
             android:title="WebView" />
+        <item
+            android:id="@+id/worker_fragment"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Worker" />
     </group>
 </menu>
