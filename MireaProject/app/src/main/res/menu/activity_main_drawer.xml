@@ -16,5 +16,17 @@
             android:id="@+id/worker_fragment"
             android:icon="@drawable/ic_launcher_background"
             android:title="Worker" />
+        <item
+            android:id="@+id/termometer_fragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Termometer" />
+        <item
+            android:id="@+id/profile_photo"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Profile Photo" />
+        <item
+            android:id="@+id/microphone_fragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Microphone" />
     </group>
 </menu>
