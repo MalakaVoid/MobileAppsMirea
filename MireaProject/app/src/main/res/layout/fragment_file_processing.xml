@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FileProcessing">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/fileTextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите текст для записи в файл"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/fileNameField"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Название файла"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_marginTop="100dp"
+            android:id="@+id/fileNameFieldToEncrypt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Название файла для расшифровки"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/decodeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Расшифровать"
+            />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitBtn"
+        android:layout_marginTop="10dp"
+        android:text="Зашифровать"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@android:drawable/ic_menu_save"
+        />
+
+
+</RelativeLayout>

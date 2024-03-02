@@ -11,14 +11,24 @@
         android:label="Worker"
         tools:layout="@layout/fragment_worker" />
     <fragment
+        android:id="@+id/file_processing"
+        android:name="ru.mirea.azbukindu.mireaproject.FileProcessing"
+        android:label="Работа с файлами"
+        tools:layout="@layout/fragment_file_processing" />
+    <fragment
+        android:id="@+id/profile_fragment"
+        android:name="ru.mirea.azbukindu.mireaproject.Profile"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
         android:id="@+id/termometer_fragment"
         android:name="ru.mirea.azbukindu.mireaproject.Termometer"
-        android:label="Termometer"
+        android:label="Термометр"
         tools:layout="@layout/fragment_termometer" />
     <fragment
         android:id="@+id/microphone_fragment"
         android:name="ru.mirea.azbukindu.mireaproject.Microphone"
-        android:label="Microphone"
+        android:label="Микрофон"
         tools:layout="@layout/fragment_microphone" />
     <fragment
         android:id="@+id/data_fragment"
