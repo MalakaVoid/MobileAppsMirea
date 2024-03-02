@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/numGroup"
+            android:hint="Номер группы..."
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/numInGroup"
+            android:hint="Номер по списку..."
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/favouriteFilm"
+            android:hint="Любимый фильм или сериал..."
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="СОХРАНИТЬ"
+            android:onClick="saveDataButton"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

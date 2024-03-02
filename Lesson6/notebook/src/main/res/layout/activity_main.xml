@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="30dp"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/fileNameField"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:hint="Название файла..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/quoteField"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:hint="Цитата.."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сохранить данные в файл"
+            android:onClick="writeFileToExternalStorage"
+            />
+        <Button
+            android:id="@+id/loadBtn"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Загрузить данные из файла"
+            android:onClick="readFileFromExternalStorage"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
