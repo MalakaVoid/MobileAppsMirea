@@ -10,7 +10,6 @@
 Практика 6            |   🟡  | <a href="https://github.com/MalakaVoid/MobileAppsMirea/tree/master/Lesson6">Практика 6</a> <a href="https://github.com/MalakaVoid/MobileAppsMirea/tree/master/MireaProject">Контрольное задание</a>
 Практика 7            |   🔴  |
 Практика 8            |   🔴  |
-Практика 9            |   🔴  |
 
 
 Статусы выполнения:
