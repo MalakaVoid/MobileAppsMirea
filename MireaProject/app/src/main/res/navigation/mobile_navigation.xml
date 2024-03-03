@@ -11,6 +11,11 @@
         android:label="Worker"
         tools:layout="@layout/fragment_worker" />
     <fragment
+        android:id="@+id/net_api_fragment"
+        android:name="ru.mirea.azbukindu.mireaproject.NetApi"
+        android:label="Worker"
+        tools:layout="@layout/fragment_net_api" />
+    <fragment
         android:id="@+id/file_processing"
         android:name="ru.mirea.azbukindu.mireaproject.FileProcessing"
         android:label="Работа с файлами"
