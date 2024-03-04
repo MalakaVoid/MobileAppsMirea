@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/cardWrapperPlace"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:padding="15dp"
+
+        >
+        <TextView
+            android:id="@+id/titleCardPlace"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="TITLE"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/descriptionCardPlace"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="ОПИСАНИЕ ЫТВЛОФТВЛФЫ ТЛВОТФ ЫВОЛФТЫОВ ВВОФЫ ВЛ ФЫЛВ ФОЫ ВДО ФЫВДОФ ЫВФЫДВ ДФ"
+            />
+        <Button
+            android:id="@+id/buttonCardPlace"
+            android:text="ПОКАЗАТЬ НА КАРТЕ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_centerInParent="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        >
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <TextView
+            android:id="@+id/placeTitle"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Title"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/placeAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aalkdm. sda 13, 123 ds"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/placeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ajdhsaj ka cksdkas dka dka dka dkad ak dakd ak sdska dakdkad ak dak d"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
